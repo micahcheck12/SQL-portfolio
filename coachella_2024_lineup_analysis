@@ -2,9 +2,14 @@
 --Source: Data found on r/coachella from the user natnav_ 
 --Queried using: MySQLWorkBench
 
---you can enjoy listening to these artists at the following playlist - https://open.spotify.com/playlist/0foDMV0RuKpF1fGuP3UPwv?si=f2723d1594804f10
+--you can enjoy listening to these artists at the following playlist 
+  - https://open.spotify.com/playlist/0foDMV0RuKpF1fGuP3UPwv?si=f2723d1594804f10
 
---STEP 1: I needed to clean up the data: 
+--STEP 1: CLEAN THE DATA 
   -- The stage is NULL for several artists so I refrenced the lineup and filled in the stages that were missing.
-  -- The Spotify Listeners data has a Ms and Ks for millions and thousands so I removed those in Excel and appended the appropriate 0s
-  -- Gender had the type of artist in parentheses next to it.  I'd like to analyze that data so I made a new field called type and moved the data over to that using Excel formulas
+  -- The Spotify Listeners data has a Ms and Ks for millions and thousands so I removed those in Excel 
+      and appended the appropriate 0s
+  -- Gender had the type of artist in parentheses next to it.  I'd like to analyze that data so I made a new field 
+      called type used text to columns in Excel seperated by space to move over.  I added Solo when it was just one gender.
+
+
