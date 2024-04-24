@@ -1,0 +1,10 @@
+--Dataset: https://docs.google.com/spreadsheets/d/1m7_Be2CPBGcqt4duMWRHmgomdLK_YjNSNNPfuBhf9Js/edit#gid=1826236554
+--Source: Data found on r/coachella from the user natnav_ 
+--Queried using: MySQLWorkBench
+
+--you can enjoy listening to these artists at the following playlist - https://open.spotify.com/playlist/0foDMV0RuKpF1fGuP3UPwv?si=f2723d1594804f10
+
+--STEP 1: I needed to clean up the data: 
+  -- The stage is NULL for several artists so I refrenced the lineup and filled in the stages that were missing.
+  -- The Spotify Listeners data has a Ms and Ks for millions and thousands so I removed those in Excel and appended the appropriate 0s
+
