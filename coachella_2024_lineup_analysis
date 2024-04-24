@@ -7,4 +7,4 @@
 --STEP 1: I needed to clean up the data: 
   -- The stage is NULL for several artists so I refrenced the lineup and filled in the stages that were missing.
   -- The Spotify Listeners data has a Ms and Ks for millions and thousands so I removed those in Excel and appended the appropriate 0s
-
+  -- Gender had the type of artist in parentheses next to it.  I'd like to analyze that data so I made a new field called type and moved the data over to that using Excel formulas
